@@ -13,7 +13,11 @@ imu.wake()
 """Tuple type of (x, y, z)"""
 gyro_data = imu.read_gyro_data()
 
-print(gyro_data)
+pidpitch = PIDController()
+
+pid_pitch = 
+pid_roll =
+pid_yaw =
 
 t1:float = pid_pitch + pid_roll - pid_yaw
 t2:float = pid_pitch - pid_roll + pid_yaw
