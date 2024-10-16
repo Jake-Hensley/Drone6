@@ -1,7 +1,6 @@
 from machine import Pin
 from utime import sleep
 import machine
-import MPU6050
 
 class PIDController:
 
